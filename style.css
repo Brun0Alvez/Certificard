@@ -30,6 +30,18 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
+.git img {
+  max-width: 40px;
+  border-radius: 100px
+}
+
+.instagram img {
+  max-width: 40px;
+  border-radius: 100px
+}
+
+
+
 .titulo {
   margin-left: 24px;
   
@@ -51,7 +63,12 @@ body {
   font-size: 24px;
   padding: 8px 16px;
   background: #4682B4;
-  border-radius: 100px
+  border-radius: 100px;
+  border-color: #000000
+}
+.tema button:hover {
+  color: #00BFFF;
+  border-color: #00BFFF;
 }
 
 .projetos {
@@ -94,4 +111,9 @@ border-radius: 20px;
 .dark .projetos {
   background: #4F4F4F;
   color: #D3D3D3
+}
+
+.dark .tema button {
+  background: #4F4F4F;
+ 
 }
